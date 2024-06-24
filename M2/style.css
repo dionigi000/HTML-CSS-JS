@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+}
+
+.row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+}
+
+.box {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 3%;
+  padding: 15px 2% 2% 2%;
+  background-color: #aaaaaa;
+  border: 1px solid #000000;
+}
+
+.content-name {
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #000000;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #EBC4C4;
+  position: absolute;
+  top: -21px;
+  right: -1px; 
+}
+
+.content {
+  color: black;
+  font-size: 25px;
+}
+
+.name1 {
+  background-color: #31b743;
+}
+
+.name2 {
+  background-color: #b7a72b;
+}
+
+.name3 {
+  background-color: #ae2e2e;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin: -1.5%;
+    width: 105.5%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  
+}
