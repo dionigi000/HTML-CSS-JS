@@ -1,5 +1,5 @@
-# Module-2
+# Module-3
 
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
-# To see result [CLICK HERE](https://khakhudagit.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers/Module3/index.html)
+# To see result [CLICK HERE](https://dionigi000.github.io/HTML-CSS-JS/M3/index.html)
